@@ -2,17 +2,22 @@
 
 ## Cara Instalasi
 
-1. **Clone repositori ini**:
+1. **Install Node.js dan Git**:
+   ```bash
+   sudo apt install -y nodejs git
+   ```
+   
+2. **Clone repositori ini**:
    ```bash
    git clone https://github.com/Andik252/Hapus-Token-Cloudflare.git
 
 
-2. **Masuk ke folder repositori dan install dependensi**:
+3. **Masuk ke folder repositori dan install dependensi**:
    ```bash
-   cd deleteTokens.js && npm init -y && npm install axios
+   cd cloudflare-api && npm init -y && npm install axios
    ```
 
-3. **Edit file `deleteTokens.js`**:
+4. **Edit file `deleteTokens.js`**:
    - Buka file `deleteTokens.js` menggunakan editor teks.     
    - Ganti nilai `email` dengan alamat email akun Cloudflare Anda.
      
@@ -27,7 +32,7 @@
    const exceptions = ['Token-Kecualian']; // Token pengecualian yang tidak akan dihapus Jika ada isi
    ```
 
-4. **Jalankan program**:
+5. **Jalankan program**:
    ```bash
    node deleteTokens.js
    ```

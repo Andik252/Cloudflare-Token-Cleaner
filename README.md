@@ -9,8 +9,7 @@
    
 2. **Clone repositori ini**:
    ```bash
-   git clone https://github.com/Andik252/cloudflare-token-cleaner/tree/48bdbe45ec4e697bb38fccde5ebfed4d4b71281c/Cloudflare-Token-Cleaner
-
+   git clone https://github.com/Andik252/Cloudflare-Token-Cleaner.git
 
 3. **Masuk ke folder repositori dan install dependensi**:
    ```bash
@@ -29,7 +28,7 @@
    ```javascript
    const email = 'your_email@example.com'; // Ganti dengan email akun Cloudflare kamu
    const apiKey = 'your_global_api_key'; // Ganti dengan Global API Key Cloudflare kamu
-   const exceptions = ['Token-Kecualian']; // Token pengecualian yang tidak akan dihapus Jika ada isi
+   const exceptions = ['Token-Kecualian']; // isi Jika ada Token pengecualian yang tidak ingin dihapus
    ```
 
 5. **Jalankan program**:

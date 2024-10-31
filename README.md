@@ -9,12 +9,12 @@
    
 2. **Clone repositori ini**:
    ```bash
-   git clone https://github.com/Andik252/Hapus-Token-Cloudflare.git
+   git clone https://github.com/Andik252/cloudflare-token-cleaner/tree/48bdbe45ec4e697bb38fccde5ebfed4d4b71281c/Cloudflare-Token-Cleaner
 
 
 3. **Masuk ke folder repositori dan install dependensi**:
    ```bash
-   cd cloudflare-api && npm init -y && npm install axios
+   cd Cloudflare-Token-Cleaner && npm init -y && npm install axios
    ```
 
 4. **Edit file `deleteTokens.js`**:

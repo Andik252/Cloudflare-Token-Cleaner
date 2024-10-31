@@ -28,13 +28,13 @@
      
    - Jika ada token yang ingin Anda kecualikan dari penghapusan, tambahkan nama token tersebut ke dalam array `exceptions`.
 
-   Contoh:
+   Edit file ini :
    ```javascript
    const email = 'your_email@example.com'; // Ganti dengan email akun Cloudflare kamu
    const apiKey = 'your_global_api_key'; // Ganti dengan Global API Key Cloudflare kamu
    const exceptions = ['Token-Kecualian']; // isi Jika ada Token pengecualian yang tidak ingin dihapus
    ```
-save dengan perintah ctrl + x + y lalu Enter
+save dengan perintah `Ctrl + x`  `y` `Enter`
 
 6. **Jalankan program**:
    ```bash

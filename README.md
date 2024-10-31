@@ -24,7 +24,7 @@
    ```javascript
    const email = 'your_email@example.com'; // Ganti dengan email akun Cloudflare kamu
    const apiKey = 'your_global_api_key'; // Ganti dengan Global API Key Cloudflare kamu
-   const exceptions = ['Termux', 'TokenKecualianLain']; // Token yang tidak akan dihapus
+   const exceptions = ['Token-Kecualian']; // Token pengecualian yang tidak akan dihapus Jika ada isi
    ```
 
 4. **Jalankan program**:

@@ -1,8 +1,8 @@
 const axios = require('axios');
 
-const email = 'Isi Email'; // Ganti dengan email akun Cloudflare kamu
-const apiKey = 'Isi Token'; // Ganti dengan Global API Key Cloudflare kamu
-const exceptions = ['Isi Nama']; // Token yang tidak akan dihapus jika ada
+const email = 'your_email@example.com'; // Ganti dengan email akun Cloudflare kamu
+const apiKey = 'your-global_api_key'; // Ganti dengan Global API Key Cloudflare kamu
+const exceptions = ['Token-Kecualian']; // Token pengecualian yang tidak akan dihapus Jika ada isi
 
 const deleteApiToken = async (tokenId) => {
     try {

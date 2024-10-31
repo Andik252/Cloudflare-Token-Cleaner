@@ -17,7 +17,11 @@
    ```
 
 4. **Edit file `deleteTokens.js`**:
-   - Buka file `deleteTokens.js` menggunakan editor teks.     
+   
+   ```bash
+    nano deleteTokens.js
+   ```
+   
    - Ganti nilai `email` dengan alamat email akun Cloudflare Anda.
      
    - Ganti nilai `apiKey` dengan Global API Key Cloudflare Anda.
@@ -30,8 +34,9 @@
    const apiKey = 'your_global_api_key'; // Ganti dengan Global API Key Cloudflare kamu
    const exceptions = ['Token-Kecualian']; // isi Jika ada Token pengecualian yang tidak ingin dihapus
    ```
+save dengan perintah ctrl + x + y lalu Enter
 
-5. **Jalankan program**:
+6. **Jalankan program**:
    ```bash
    node deleteTokens.js
    ```

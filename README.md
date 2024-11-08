@@ -41,7 +41,7 @@ Skrip ini memungkinkan Anda untuk menghapus token API Cloudflare secara otomatis
 
 6. **Jalankan program**:
    ```bash
-   node deleteTokens.js
+   node Delete.js
    ```
 ## Catatan Penting
 - **Hati-hati dengan Penghapusan**: Skrip ini akan menghapus token API yang tidak Anda kecualikan. Pastikan Anda telah memeriksa daftar token dan menentukan token mana yang ingin Anda simpan.

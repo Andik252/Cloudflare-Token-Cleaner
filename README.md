@@ -19,10 +19,10 @@ Skrip ini memungkinkan Anda untuk menghapus token API Cloudflare secara otomatis
    cd Cloudflare-Token-Cleaner && npm init -y && npm install axios
    ```
 
-4. **Edit file `deleteTokens.js`**:
+4. **Edit file `Delete.js`**:
    
    ```bash
-    nano deleteTokens.js
+    nano Delete.js
    ```
    
    - Ganti nilai `email` dengan alamat email akun Cloudflare Anda.
